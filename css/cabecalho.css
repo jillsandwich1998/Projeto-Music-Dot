@@ -33,3 +33,26 @@ color: #fff;
 
 
     }
+    
+@media (min-width: 640px) {
+ .cabecalho {
+
+ padding: 0 5%;
+
+ display: flex;
+
+ justify-content: space-between;
+
+ align-items: center;
+ }
+
+ .cabecalho__logo {
+
+ padding: 2.5em 0;
+ }
+
+ .cabecalho__menu {
+
+ background-color: transparent;
+ }
+}
